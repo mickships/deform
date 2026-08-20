@@ -2,9 +2,9 @@
 
 Deform is a skill generated from a corpus of specimens. Two workflows run here, and they must stay separate.
 
-**Capture** is high frequency and must be near-free. A specimen arrives, it goes into `corpus/inbox.md` verbatim, and nothing else happens. No classification, no discussion of whether it is already covered, no argument about whether it deserves a form. Use `/slop`.
+**Capture** is high frequency and must be near-free. A specimen arrives, it goes into `corpus/inbox.md` verbatim, and nothing else happens. No classification, no discussion of whether it is already covered, no argument about whether it deserves a form. Use `/df-slop`.
 
-**Distill** is low frequency and deliberate. Roughly every twenty captures, accumulated specimens become dictionary entries. Use `/distill`.
+**Distill** is low frequency and deliberate. Roughly every twenty captures, accumulated specimens become dictionary entries. Use `/df-distill`.
 
 Doing both at once is the failure mode this structure exists to prevent: it produces either a corpus nobody adds to, because every capture turns into a debate, or a dictionary full of one-off irritations.
 

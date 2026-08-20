@@ -1,5 +1,5 @@
 ---
-description: Record a captured specimen of AI slop into the corpus, verbatim and without discussion
+description: Deform: record a captured specimen of AI slop into the corpus, verbatim and without discussion
 ---
 
 Append the following specimen to `corpus/inbox.md`, then stop.

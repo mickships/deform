@@ -1,5 +1,5 @@
 ---
-description: Turn accumulated corpus captures into dictionary entries, rebuild, and publish
+description: Deform: turn accumulated corpus captures into dictionary entries, rebuild, and publish
 ---
 
 Run the procedure in `DISTILL.md` against the current contents of `corpus/inbox.md`.
