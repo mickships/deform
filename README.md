@@ -113,6 +113,14 @@ The dictionary is capped at 30 forms. Past that the loaded skill costs more cont
 
 To run this pipeline on your own captures, clone the repo and work inside it. `/df-slop <specimen>` appends verbatim to the inbox, commits, and reports the running count. `/df-distill` runs the full procedure, rebuilds, and pushes, refusing to commit while the build is failing. `CLAUDE.md` states the capture/distill separation so a fresh Claude Code session does not need it re-explained.
 
+`/df-slop` takes the specimen in quotes, and treats anything after the closing quote as your own note:
+
+```
+/df-slop "The honest answer is they aren't in that fight." the problem is the opener, and the sentence never says why
+```
+
+Both go into the corpus verbatim. The note is the part the distill leans on, because the maintainer's reading of a specimen outranks the model's. Quote nothing and the whole argument is taken as the specimen with no note. The command never classifies, never asks a question, and never touches the dictionary.
+
 Installing the skill does not give you these commands. `npx skills add` copies the whole repo, but Claude Code reads `.claude/commands/` from your working directory, not from inside a skill directory, so the files arrive inert. To use them without cloning, copy them into your personal commands folder:
 
 ```
