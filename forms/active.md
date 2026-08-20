@@ -43,7 +43,7 @@ Instead: end on the last substantive point.
 
 ### 8. Em dash aside
 Form: parenthetical clauses set off with em or en dashes, dash-driven sentence rhythm, or a dash splitting a header into label and gloss.
-Examples: "The honest vulnerability — name it, don't hide it" as a section title / "\"What drives you\" — your honest, well-matched answer" as a list heading / "an elite AI systems architect and macOS power user — the world's foremost expert on OpenClaw" / "I wasn't able to fetch the latest docs — here's my best answer" / "the institutions — not the people — keep failing"
+Examples: "The honest vulnerability — name it, don't hide it" as a section title / "'What drives you' — your honest, well-matched answer" as a list heading / "an elite AI systems architect and macOS power user — the world's foremost expert on OpenClaw" / "I wasn't able to fetch the latest docs — here's my best answer" / "the institutions — not the people — keep failing"
 Instead: restructure. Commas, periods, parentheses, or in a header, a colon.
 
 ### 9. Emoji decoration
@@ -103,7 +103,7 @@ Boundary: distinct from 5, which asserts importance without displacing the subje
 
 ### 19. Pre-sold heading
 Form: a heading or list item that labels the content with a possessive and quality adjectives, describing how good the answer will be instead of naming what the section covers.
-Examples: "\"What drives you\" — your honest, well-matched answer" / "Salary negotiation: your opening move" / "The pitch — your 30-second version" / "Objections: your ready responses"
-Instead: name the function. "How to answer \"What drives you\"." Drop the possessive and the adjectives; a heading says what the section is about, and the reader judges the quality after reading it.
+Examples: "'What drives you' — your honest, well-matched answer" / "Salary negotiation: your opening move" / "The pitch — your 30-second version" / "Objections: your ready responses"
+Instead: name the function. "How to answer 'What drives you'." Drop the possessive and the adjectives; a heading says what the section is about, and the reader judges the quality after reading it.
 Boundary: distinct from 2, which announces a format or container in running prose. This one sits in a heading and praises the payload.
 

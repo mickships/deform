@@ -84,7 +84,7 @@ Which forms in the deform dictionary does this paragraph use?
 | 16 | Delivery prescription | "and you should say so plainly" | Write the plain version |
 | 17 | Imperative couplet | "name it, don't hide it" | Give the instruction once |
 | 18 | Delayed subject | "And the one genuine encroachment: Apple has..." | Lead with the subject |
-| 19 | Pre-sold heading | "\"What drives you\" — your honest answer" | Name the function |
+| 19 | Pre-sold heading | "'What drives you' — your honest answer" | Name the function |
 
 Full definitions with replacement rules and boundary notes are in [`forms/active.md`](forms/active.md).
 
