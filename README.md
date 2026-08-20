@@ -111,6 +111,14 @@ Deform is generated from a corpus of specimens rather than assembled from taste.
 
 The dictionary is capped at 30 forms. Past that the loaded skill costs more context than it returns and forms start colliding, which shows up as stilted prose. The corpus underneath has no cap.
 
+To run this pipeline on your own captures, clone the repo and work inside it. `/df-slop <specimen>` appends verbatim to the inbox, commits, and reports the running count. `/df-distill` runs the full procedure, rebuilds, and pushes, refusing to commit while the build is failing. `CLAUDE.md` states the capture/distill separation so a fresh Claude Code session does not need it re-explained.
+
+Installing the skill does not give you these commands. `npx skills add` copies the whole repo, but Claude Code reads `.claude/commands/` from your working directory, not from inside a skill directory, so the files arrive inert. To use them without cloning, copy them into your personal commands folder:
+
+```
+cp ~/.agents/skills/deform/.claude/commands/*.md ~/.claude/commands/
+```
+
 To contribute a specimen, see [CONTRIBUTING.md](CONTRIBUTING.md). No git knowledge needed; the GitHub web editor is enough.
 
 ## Relation to humanizer
@@ -131,6 +139,8 @@ forms/watchlist.md   forms parked for lack of evidence, not loaded
 forms/README.md      dictionary format and the rules that make one work
 build.py             engine + dictionary -> SKILL.md, with validation
 corpus/inbox.md      raw captures, append-only
+.claude/commands/    /df-slop and /df-distill for running the pipeline in Claude Code
+CLAUDE.md            repo rules a fresh Claude Code session needs
 DISTILL.md           corpus -> dictionary
 PREFERENCES.md       compressed subset for a preferences field
 SKILL.md             generated, committed, do not edit
