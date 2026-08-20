@@ -123,3 +123,7 @@ note: seeded as form 18 (delayed subject). "genuine" added to form 15's word lis
 source: claude.ai (job interview prep document), list heading
 note: three forms. Repeat confirmations of 8 (em dash in a heading) and 15 ("honest" as an adjective on the deliverable). New shape seeded as form 19 (pre-sold heading): possessive plus quality adjectives describing the payload. Maintainer's rewrite: How to answer the question "What drives you".
 
+
+## 2026-08-20
+> Two things that regex deliberately avoids touching.
+note: the bad part of this sentence are: 1) starting a sentence with an enumeration and 2) using the word 'deliberately'
