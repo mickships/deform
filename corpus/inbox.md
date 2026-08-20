@@ -1,0 +1,125 @@
+# Inbox
+
+Append-only. Raw captures, no classification. Sorting happens in the distill session, never here.
+
+Entry format:
+
+```
+## YYYY-MM-DD
+> the offending sentence or passage, verbatim
+source: claude.ai | claude-code | other   (optional)
+```
+
+---
+
+## 2026-08-17
+> I verified it rather than assuming: [result]
+source: claude.ai
+note: also seen as "before I state them" and "how X is actually structured". Seeded as form 15 (virtue contrast).
+
+
+## 2026-08-17
+> One judgment call worth your review: [statement]
+source: claude.ai
+note: label substitutes for a direct question. Seeded as form 16 (labeled preamble).
+
+## 2026-08-17
+> Two things I'd sanity-check before going public: [item], [item]
+source: claude.ai
+note: instance of existing form 1 (counted framing header), first-person variant. Example added to form 1.
+
+## 2026-08-17
+> [continuous reasoning split into a numbered list of non-parallel items]
+source: claude.ai
+note: enumeration without an announced count. Seeded as form 17 (enumeration reflex).
+
+## 2026-08-17
+> Next steps in order: [list]
+source: claude.ai
+note: "in order" is entailed by "steps". Reassurance qualifier. Third sighting of the process-signaling family; triggered the merge of forms 15 and 16.
+
+## 2026-08-17
+> That one's already banned. Form #1 covers it, including the example "Here are four things to keep in mind," and I broke it anyway. Worth noting for the project rather than as an apology: the seed forms are catching real output, but a skill only works when it's loaded, and I'm writing here without it. That's the argument for installing it rather than trusting a model to remember its own rules.
+source: claude.ai
+note: full paragraph retained as specimen. Offending construction is "Worth noting for the project rather than as an apology:" — labeled preamble fused with virtue contrast. Fragment added to form 15.
+
+## 2026-08-17
+> You're right that it's redundant, and I wrote it. But I'm not giving it its own slot, and the reason matters for the project.
+source: claude.ai
+note: concessive opener. Agreement offered as social lubricant before a refusal that ignores it. Candidate form, not promoted; watching for repeats.
+
+## 2026-08-17
+> [promotion of the 2026-08-17 concessive opener capture above, previously held as a watch item]
+source: maintainer decision
+note: promoted to form 18. Held back initially on the 3-capture bar; maintainer taste overrides.
+
+## 2026-08-17
+> Two things to note. First, he and Cervini share a Honeywell-and-Dubai background... Second, he is the architect of...
+source: claude.ai (Gewiss interview prep, 2026-06-29)
+note: form 1, counted framing header.
+
+## 2026-08-17
+> Culture as a hard performance lever, not a soft topic / the CIO-HR partnership is a live, concrete topic, not an abstraction
+source: claude.ai (Gewiss interview prep, 2026-06-29)
+note: form 3, negation pivot. Two instances in one document.
+
+## 2026-08-17
+> I've got everything I need. Here's your full prep brief. One important finding up front:
+source: claude.ai (Gewiss interview prep, 2026-06-29)
+note: forms 2, 4 and 11 in one sentence.
+
+## 2026-08-17
+> The takeaway: he will value answers that show you owning outcomes
+source: claude.ai (Gewiss interview prep, 2026-06-29)
+note: form 5, significance label.
+
+## 2026-08-17
+> Before I show you the file, one editorial decision worth stating up front:
+source: claude.ai (Mondadori Cowork setup, 2026-06-08)
+note: forms 4 and 11 fused.
+
+## 2026-08-17
+> an elite AI systems architect and macOS power user — the world's foremost expert on OpenClaw
+source: claude.ai (OpenClaw project instructions, 2026-03-09)
+note: form 8, em dash aside. Session predates most style corrections.
+
+## 2026-08-17
+> Think of yourself as that rare engineer who's also a great explainer — someone who uses vivid analogies, real-world metaphors, and step-by-step clarity.
+source: claude.ai (OpenClaw project instructions, 2026-03-09)
+note: forms 6 and 8.
+
+## 2026-08-17
+> ## 🤖 Project Instructions: OpenClaw & Multi-Agent Expert
+source: claude.ai (OpenClaw project instructions, 2026-03-09)
+note: emoji decoration. New form, added as form 9.
+
+## 2026-08-17
+> - **Patient and encouraging**: Never make the user feel out of their depth. / - **Structured**: Use numbered steps, clear headings, and code blocks
+source: claude.ai (OpenClaw project instructions, 2026-03-09)
+note: form 10, bold-label bullet. Five instances in one block.
+
+## 2026-08-17
+> That's the complete, clean, ready-to-paste version with everything merged in the right order.
+source: claude.ai (OpenClaw project instructions, 2026-03-09)
+note: forms 6, 7 and 12 in a single closing sentence.
+
+## 2026-08-17
+> The honest answer is that they mostly aren't in that fight, and you should say so plainly.
+source: claude.ai
+note: two forms in one sentence. "The honest answer is" seeded as form 15 (candor frame); "you should say so plainly" seeded as form 16 (delivery prescription). Maintainer's rewrite: "The company is simply not in the fight in that market, because XYZ" — the frame was occupying the slot where the cause belonged.
+
+## 2026-08-17
+> The honest vulnerability — name it, don't hide it
+source: claude.ai (company competitor analysis document), section title
+note: three forms in one header. "honest" widened form 15 from a lead-in phrase to any self-applied modifier; the dash is form 8 in header position; "name it, don't hide it" seeded as form 17 (imperative couplet). Maintainer's rewrite: "The business vulnerability: [name]".
+
+## 2026-08-17
+> And the one genuine encroachment from Big Audio: Apple has been pushing [product]
+source: claude.ai (company competitor analysis document)
+note: seeded as form 18 (delayed subject). "genuine" added to form 15's word list. Maintainer's rewrite: "Apple has been pushing [product], which is a threat to [company]." Subject first, consequence second.
+
+## 2026-08-17
+> 5. "What drives you" — your honest, well-matched answer
+source: claude.ai (job interview prep document), list heading
+note: three forms. Repeat confirmations of 8 (em dash in a heading) and 15 ("honest" as an adjective on the deliverable). New shape seeded as form 19 (pre-sold heading): possessive plus quality adjectives describing the payload. Maintainer's rewrite: How to answer the question "What drives you".
+
