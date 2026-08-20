@@ -17,7 +17,6 @@ Deform grows from specimens, real AI-written sentences captured in the wild. You
 ```
 ## 2026-08-17
 > the offending sentence, verbatim
-source: claude.ai
 ```
 
 4. Click "Propose changes", then "Create pull request". Done.

@@ -15,11 +15,10 @@ Rules:
 ```
 ## YYYY-MM-DD
 > the specimen, verbatim
-source: claude.ai | claude-desktop | claude-mobile | claude-code | claude-design | other
 note: (only if the user supplied one)
 ```
 
-- Use today's date. If the user did not say which surface it came from, ask once, in one short line, and nothing else. Source matters: the corpus already shows document-writing producing different forms than chat replies, and that signal is lost if the field is guessed.
+- Use today's date. Ask nothing. The specimen carries its own context, and the distill reads every entry anyway.
 - Commit with the message `corpus: add specimen`. Do not push, do not run the build, do not touch `forms/active.md` or `SKILL.md`.
 - Then report the running count in one line: `logged (N in inbox)`.
 - If N is 20 or more, add one further line: `ready to distill`. Do not start the distill.

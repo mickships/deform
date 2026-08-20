@@ -7,7 +7,7 @@ Entry format:
 ```
 ## YYYY-MM-DD
 > the offending sentence or passage, verbatim
-source: claude.ai | claude-code | other   (optional)
+note: (optional)
 ```
 
 ---
