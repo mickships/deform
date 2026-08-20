@@ -4,7 +4,7 @@
 
 Deform stops AI writing patterns before they reach the page. It loads as a skill while Claude writes, so the prose comes out clean rather than getting cleaned up afterwards.
 
-Nineteen banned forms, each with a replacement rule. Every example in the dictionary is a verbatim specimen from real Claude output, not an invented illustration.
+Twenty banned forms, each with a replacement rule. Every example in the dictionary is a verbatim specimen from real Claude output, not an invented illustration.
 
 ## Before and after
 
@@ -44,7 +44,7 @@ In Claude Code, manually:
 git clone https://github.com/mickships/deform.git ~/.claude/skills/deform
 ```
 
-Without installing anything, [`PREFERENCES.md`](PREFERENCES.md) holds a compressed subset that fits in a preferences field. Four of the nineteen forms are dropped to make it fit, so installing carries more than pasting does.
+Without installing anything, [`PREFERENCES.md`](PREFERENCES.md) holds a compressed subset that fits in a preferences field. Four of the twenty forms are dropped to make it fit, so installing carries more than pasting does.
 
 ## Usage
 
@@ -85,6 +85,7 @@ Which forms in the deform dictionary does this paragraph use?
 | 17 | Imperative couplet | "name it, don't hide it" | Give the instruction once |
 | 18 | Delayed subject | "And the one genuine encroachment: Apple has..." | Lead with the subject |
 | 19 | Pre-sold heading | "'What drives you' — your honest answer" | Name the function |
+| 20 | Asserted intent | "two things that regex deliberately avoids" | State the behaviour and the reason |
 
 Full definitions with replacement rules and boundary notes are in [`forms/active.md`](forms/active.md).
 
@@ -158,6 +159,7 @@ SKILL.md             generated, committed, do not edit
 
 ## Version history
 
+- 4.1.0: added form 20 (asserted intent); widened form 1 to sentence openers in running prose.
 - 4.0.0: dictionary frontmatter carries the skill's `name` and `description`, so a swapped dictionary produces a differently named skill with its own trigger conditions. `engine.md` reduced to application rules. Added `forms/example.md` and frontmatter validation.
 - 3.4.0: added form 19 (pre-sold heading).
 - 3.3.0: added form 18 (delayed subject).

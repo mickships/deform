@@ -1,13 +1,13 @@
 ---
 name: deform
 description: Use when writing or editing any English prose. Applies a dictionary of banned AI writing forms, each with a replacement rule, and bans the form rather than the string. Also use when asked to "deform" a text or strip AI patterns from it.
-version: 4.0.0
+version: 4.1.0
 title: Deform
 intro: A dictionary of banned writing forms with replacement rules. Apply while writing, and on request to existing text.
 ---
 
 ### 1. Counted framing header
-Form: "[Number] [nouns] that [verb phrase]" as a header or lead-in, followed by exactly that many items.
+Form: "[Number] [nouns] that [verb phrase]" as a header, a lead-in, or a sentence opener in running prose, followed by exactly that many items.
 Examples: "Three factors that shape the outcome" / "Five reasons this approach works" / "Here are four things to keep in mind" / "Two things I'd check before shipping:" / "Two things to note. First... Second..."
 Instead: make the strongest point in prose. If a list is warranted, head it with the subject, never the count.
 
@@ -107,3 +107,8 @@ Examples: "'What drives you' — your honest, well-matched answer" / "Salary neg
 Instead: name the function. "How to answer 'What drives you'." Drop the possessive and the adjectives; a heading says what the section is about, and the reader judges the quality after reading it.
 Boundary: distinct from 2, which announces a format or container in running prose. This one sits in a heading and praises the payload.
 
+### 20. Asserted intent
+Form: an adverb or phrase claiming that a behaviour or an omission was chosen, such as deliberately, intentionally, purposely, by design, or consciously. Only the behaviour is observable; the intent is asserted to preempt the reading that the thing simply cannot do it.
+Examples: "Two things that regex deliberately avoids touching" / "the parser intentionally ignores trailing whitespace" / "that's by design" / "we consciously left the endpoint unversioned"
+Instead: state the behaviour, and the reason when the reason matters. "Regex does not touch X or Y, because Z." Keep the intent word only where the design decision is itself the subject, such as a changelog explaining why a limitation was chosen.
+Boundary: distinct from 11, which makes claims about how the writing was done. This one attributes intent to the thing being described.
