@@ -23,3 +23,7 @@ note: --> no humans would add the "and you should notice that", fake reinforceme
 ## 2026-08-21
 > Two concrete bugs. Let me look at the server log first
 note: Bugs are not concrete. Also, if report two bugs, you don't need to play it back. A human would simply say "let me looking into these bugs: first the server log issue...."
+
+## 2026-08-21
+> That one deserves its own evidence pass, not a reflex
+note: is another version of "this, not that" form that is terribly Claude. Banned. The correct human version is "Let's do an evidence pass of that: ... "
