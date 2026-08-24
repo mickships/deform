@@ -27,3 +27,7 @@ note: Bugs are not concrete. Also, if report two bugs, you don't need to play it
 ## 2026-08-21
 > That one deserves its own evidence pass, not a reflex
 note: is another version of "this, not that" form that is terribly Claude. Banned. The correct human version is "Let's do an evidence pass of that: ... "
+
+## 2026-08-21
+> One thing to be aware of, and it's the substantive part:
+note: The bad parts of this are two: 1) the numbering "One thing..." and the decorative reinforcement of the statement "and it's the substantive part". A human would say "Be aware that <statement>" .
