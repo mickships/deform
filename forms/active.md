@@ -1,15 +1,15 @@
 ---
 name: deform
 description: Use when writing or editing any English prose. Applies a dictionary of banned AI writing forms, each with a replacement rule, and bans the form rather than the string. Also use when asked to "deform" a text or strip AI patterns from it.
-version: 4.1.0
+version: 4.2.0
 title: Deform
 intro: A dictionary of banned writing forms with replacement rules. Apply while writing, and on request to existing text.
 ---
 
 ### 1. Counted framing header
-Form: "[Number] [nouns] that [verb phrase]" as a header, a lead-in, or a sentence opener in running prose, followed by exactly that many items.
-Examples: "Three factors that shape the outcome" / "Five reasons this approach works" / "Here are four things to keep in mind" / "Two things I'd check before shipping:" / "Two things to note. First... Second..."
-Instead: make the strongest point in prose. If a list is warranted, head it with the subject, never the count.
+Form: "[Number] [nouns]" or "[Number] [nouns] that [verb phrase]", as a header, a lead-in, or a sentence opener in running prose, followed by exactly that many items. A count of one is the same form.
+Examples: "Three factors that shape the outcome" / "Here are four things to keep in mind" / "Two things I'd check before shipping:" / "Two things to note. First... Second..." / "Two concrete bugs." / "One thing to be aware of,"
+Instead: make the strongest point in prose. If a list is warranted, head it with the subject, never the count. Where the count plays back what the reader just told you, cut the sentence.
 
 ### 2. Format meta-label
 Form: announcing the container instead of the content, in running prose.
@@ -17,9 +17,9 @@ Examples: "Here's a breakdown" / "The picture in one table" / "Let me summarize:
 Instead: show the table or the points under a header that names the subject.
 
 ### 3. Negation pivot
-Form: defining by what something is not before or after saying what it is, including tailing negations.
-Examples: "It's not about speed. It's about trust." / "culture as a hard performance lever, not a soft topic" / "a live, concrete topic, not an abstraction" / "One command. No config, no guesswork."
-Instead: assert the actual claim with evidence.
+Form: defining by what something is not before or after saying what it is, including the tailing "X, not Y".
+Examples: "It's not about speed. It's about trust." / "culture as a hard performance lever, not a soft topic" / "That one deserves its own evidence pass, not a reflex" / "One command. No config, no guesswork."
+Instead: assert the claim and stop. The rejected alternative is rarely information the reader needed, and the pivot reads as rhythm standing in for evidence.
 
 ### 4. Announcement transition
 Form: telling the reader you are about to begin, continue, or reveal.
@@ -63,8 +63,8 @@ Instead: delete the signal and make the statement. If you want a response, ask f
 Boundary: distinct from 5, which claims a statement is important. This one makes claims about the writer.
 
 ### 12. Redundant qualifier
-Form: a modifier stating something the noun already entails. Steps are ordered; summaries are short; results come at the end.
-Examples: "with everything merged in the right order" / "Next steps in order:" / "a careful review" / "a comprehensive list" / "a brief summary"
+Form: a modifier stating something the noun already entails. Steps are ordered; summaries are short; bugs are concrete.
+Examples: "with everything merged in the right order" / "Next steps in order:" / "two concrete bugs" / "a careful review" / "a brief summary"
 Instead: delete the modifier. Test: if the sentence means the same without it, it was redundant. Keep it only when it disambiguates between readings a reader would plausibly expect, such as "in priority order" where chronological order is also possible.
 
 ### 13. Enumeration reflex
@@ -79,8 +79,8 @@ Examples: "You're right that it's redundant, and I wrote it. But I'm not giving 
 Instead: state the position. If you agree, agree and stop. If you disagree, disagree without a preamble of agreement.
 
 ### 15. Candor frame
-Form: any use of honest, honestly, truthful, candid, genuine, or real as a modifier on your own content, whether as a lead-in or an adjective. It implies the alternative was an evasion and casts the writer as brave for avoiding it.
-Examples: "The honest answer is that they mostly aren't in that fight" / "The honest vulnerability" as a section title / "your honest, well-matched answer" / "the one genuine encroachment" / "To be honest" / "Honestly?" / "The truth is" / "The real answer is" / "If I'm being candid"
+Form: any use of honest, honestly, truthful, candid, genuine, or real as a modifier on your own content, whether as a lead-in, an adjective on the noun, or a predicate asserting the content is not inflated. It implies the alternative was an evasion and casts the writer as brave for avoiding it.
+Examples: "The honest answer is that they mostly aren't in that fight" / "The honest vulnerability" as a section title / "your honest, well-matched answer" / "the one genuine encroachment" / "To be honest" / "Honestly?" / "The truth is" / "The good part is real:" / "If I'm being candid"
 Instead: delete the word and state the claim with its cause. The frame usually sits where the reason belongs, so "The honest answer is they aren't in that fight" becomes "They aren't in that fight, because X," and "The honest vulnerability" becomes "The business vulnerability: [name it]." The only surviving use is when honesty is the subject under discussion rather than a flavour on your own writing.
 Boundary: distinct from 11, which makes claims about the writer's process. This one makes claims about the statement's truthfulness.
 
@@ -112,3 +112,9 @@ Form: an adverb or phrase claiming that a behaviour or an omission was chosen, s
 Examples: "Two things that regex deliberately avoids touching" / "the parser intentionally ignores trailing whitespace" / "that's by design" / "we consciously left the endpoint unversioned"
 Instead: state the behaviour, and the reason when the reason matters. "Regex does not touch X or Y, because Z." Keep the intent word only where the design decision is itself the subject, such as a changelog explaining why a limitation was chosen.
 Boundary: distinct from 11, which makes claims about how the writing was done. This one attributes intent to the thing being described.
+
+### 21. Reinforcement tail
+Form: a clause appended to a complete statement, usually after "and", that tells the reader how to take the statement, ranks it, or promises the explanation instead of giving it.
+Examples: "Your reframe is better than my framing, and you should notice that" / "One thing to be aware of, and it's the substantive part:" / "and here is why" / "and that matters"
+Instead: end at the period. A reader who has to be told to notice a point was given a weak point, and where an explanation follows, give it without announcing that it is coming.
+Boundary: distinct from 5, which labels importance in front of the statement, and from 16, which prescribes how to say a thing rather than how to receive it.

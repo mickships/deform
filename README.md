@@ -4,7 +4,7 @@
 
 Deform stops AI writing patterns before they reach the page. It loads as a skill while Claude writes, so the prose comes out clean rather than getting cleaned up afterwards.
 
-Twenty banned forms, each with a replacement rule. Every example in the dictionary is a verbatim specimen from real Claude output, not an invented illustration.
+Twenty-one banned forms, each with a replacement rule. Every example in the dictionary is a verbatim specimen from real Claude output, not an invented illustration.
 
 ## Before and after
 
@@ -44,7 +44,7 @@ In Claude Code, manually:
 git clone https://github.com/mickships/deform.git ~/.claude/skills/deform
 ```
 
-Without installing anything, [`PREFERENCES.md`](PREFERENCES.md) holds a compressed subset that fits in a preferences field. Four of the twenty forms are dropped to make it fit, so installing carries more than pasting does.
+Without installing anything, [`PREFERENCES.md`](PREFERENCES.md) holds a compressed subset that fits in a preferences field. Four of the twenty-one forms are dropped and two more are folded together to make it fit, so installing carries more than pasting does.
 
 ## Usage
 
@@ -68,7 +68,7 @@ Which forms in the deform dictionary does this paragraph use?
 |---|------|----------|---------|
 | 1 | Counted framing header | "Two things to note. First... Second..." | Head lists with the subject, never the count |
 | 2 | Format meta-label | "Here's your full prep brief" | Show the content, name the subject |
-| 3 | Negation pivot | "a hard performance lever, not a soft topic" | Assert the claim directly |
+| 3 | Negation pivot | "an evidence pass, not a reflex" | Assert the claim directly |
 | 4 | Announcement transition | "Before I show you the file" | Start with the content |
 | 5 | Significance label | "The takeaway:" | Show the consequence |
 | 6 | Rule-of-three triplet | "the complete, clean, ready-to-paste version" | One word that does the work |
@@ -77,7 +77,7 @@ Which forms in the deform dictionary does this paragraph use?
 | 9 | Emoji decoration | "## 🤖 Project Instructions" | Delete it |
 | 10 | Bold-label bullet | "**Structured**: Use numbered steps" | Plain bullets or prose |
 | 11 | Process signaling | "One important finding up front:" | Delete the signal, make the statement |
-| 12 | Redundant qualifier | "merged in the right order" | Delete the modifier |
+| 12 | Redundant qualifier | "two concrete bugs" | Delete the modifier |
 | 13 | Enumeration reflex | Two unrelated points rendered as bullets | Write it as prose |
 | 14 | Concessive opener | "You're right, but I'm not doing it" | State the position, skip the softener |
 | 15 | Candor frame | "The honest vulnerability", "The honest answer is" | Delete the word, give the cause |
@@ -86,6 +86,7 @@ Which forms in the deform dictionary does this paragraph use?
 | 18 | Delayed subject | "And the one genuine encroachment: Apple has..." | Lead with the subject |
 | 19 | Pre-sold heading | "'What drives you' — your honest answer" | Name the function |
 | 20 | Asserted intent | "two things that regex deliberately avoids" | State the behaviour and the reason |
+| 21 | Reinforcement tail | "..., and you should notice that" | End at the period |
 
 Full definitions with replacement rules and boundary notes are in [`forms/active.md`](forms/active.md).
 
@@ -159,6 +160,7 @@ SKILL.md             generated, committed, do not edit
 
 ## Version history
 
+- 4.2.0: added form 21 (reinforcement tail). Widened form 1 to bare counts and counts of one, form 3 to the tailing "X, not Y", form 12 to flattering adjectives, and form 15 to predicate position.
 - 4.1.0: added form 20 (asserted intent); widened form 1 to sentence openers in running prose.
 - 4.0.0: dictionary frontmatter carries the skill's `name` and `description`, so a swapped dictionary produces a differently named skill with its own trigger conditions. `engine.md` reduced to application rules. Added `forms/example.md` and frontmatter validation.
 - 3.4.0: added form 19 (pre-sold heading).
