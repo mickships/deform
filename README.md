@@ -159,6 +159,7 @@ SKILL.md             generated, committed, do not edit
 
 ## Version history
 
+- 4.2.0: widened form 3 to denials of a misreading the reader never had ("X isn't a typo, and that's the headline"), with a deletion test in the replacement rule.
 - 4.1.0: added form 20 (asserted intent); widened form 1 to sentence openers in running prose.
 - 4.0.0: dictionary frontmatter carries the skill's `name` and `description`, so a swapped dictionary produces a differently named skill with its own trigger conditions. `engine.md` reduced to application rules. Added `forms/example.md` and frontmatter validation.
 - 3.4.0: added form 19 (pre-sold heading).

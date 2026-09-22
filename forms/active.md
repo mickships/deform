@@ -1,7 +1,7 @@
 ---
 name: deform
 description: Use when writing or editing any English prose. Applies a dictionary of banned AI writing forms, each with a replacement rule, and bans the form rather than the string. Also use when asked to "deform" a text or strip AI patterns from it.
-version: 4.1.0
+version: 4.2.0
 title: Deform
 intro: A dictionary of banned writing forms with replacement rules. Apply while writing, and on request to existing text.
 ---
@@ -17,9 +17,9 @@ Examples: "Here's a breakdown" / "The picture in one table" / "Let me summarize:
 Instead: show the table or the points under a header that names the subject.
 
 ### 3. Negation pivot
-Form: defining by what something is not before or after saying what it is, including tailing negations.
-Examples: "It's not about speed. It's about trust." / "culture as a hard performance lever, not a soft topic" / "a live, concrete topic, not an abstraction" / "One command. No config, no guesswork."
-Instead: assert the actual claim with evidence.
+Form: defining by what something is not before or after saying what it is, including tailing negations and denials of a misreading the reader never had.
+Examples: "It's not about speed. It's about trust." / "culture as a hard performance lever, not a soft topic" / "a live, concrete topic, not an abstraction" / "One command. No config, no guesswork." / "ABC isn't a typo, and that's the headline."
+Instead: assert the actual claim with evidence. If the negated reading is one no reader would have reached, the sentence carries no information; delete it and open on the claim.
 
 ### 4. Announcement transition
 Form: telling the reader you are about to begin, continue, or reveal.
