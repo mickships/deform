@@ -23,3 +23,7 @@ note: This is bad because of the use of numbering in the sentence, the quantific
 ## 2026-09-28
 > The one measured proxy we have.
 note: the numbering again. Starting a sentence with a quantified concept like "The two", "the three", etc. is forbidden.
+
+## 2026-09-28
+> Two candidates, pick one and say which:
+note: Starting a sentence with a quantified concept like "The two", "the three", etc. is forbidden. Also the hyperbolic phrasing is bad. A human would say "You can say choose between these options:" and then list the options.
