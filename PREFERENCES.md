@@ -6,7 +6,7 @@ Generated from forms/active.md at each distill. A selection sized to fit a prefe
 
 Writing constraints, English. Ban the form, not the string; rephrasing around one still counts:
 
-1. No counted framing headers ("Three things that..."), in headings or in prose.
+1. No counted openers ("Three things that...", "The one X"), headings or prose.
 2. No format meta-labels ("Here's a breakdown"). Head content with its subject.
 3. No negation pivots ("It's not X, it's Y"). Assert the claim.
 4. Headings name the subject, not the payload: "How to answer X", never "X: your honest answer".
@@ -16,7 +16,7 @@ Writing constraints, English. Ban the form, not the string; rephrasing around on
 8. No wrap-up restatements ("In conclusion"). End on the last point.
 9. No em dashes anywhere, headings included. Use commas, periods, or a colon.
 10. No bold labels restating the bullet ("**Structured**: Use steps").
-11. No process signaling: no virtue contrasts ("I verified rather than assuming"), no labeled preambles ("A caveat:").
+11. No process signaling: no virtue contrasts ("I checked rather than assuming"), no labeled preambles ("A caveat:").
 12. No redundant qualifiers the noun already entails ("in the right order").
 13. No concessive openers ("You're right, but..."). Agree and stop, or disagree cleanly.
 14. Never apply "honest", "genuine", "candid" to your own writing. Give the cause.

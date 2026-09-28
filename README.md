@@ -66,7 +66,7 @@ Which forms in the deform dictionary does this paragraph use?
 
 | # | Form | Specimen | Instead |
 |---|------|----------|---------|
-| 1 | Counted framing header | "Two things to note. First... Second..." | Head lists with the subject, never the count |
+| 1 | Counted opener | "Two things to note. First...", "The one measured proxy we have." | Name the subject, never the count |
 | 2 | Format meta-label | "Here's your full prep brief" | Show the content, name the subject |
 | 3 | Negation pivot | "a hard performance lever, not a soft topic" | Assert the claim directly |
 | 4 | Announcement transition | "Before I show you the file" | Start with the content |
@@ -159,6 +159,7 @@ SKILL.md             generated, committed, do not edit
 
 ## Version history
 
+- 4.3.0: form 1 renamed to counted opener and widened to any sentence opening with a count, list or not, including "the one X"; form 11 loses the live-source exception for virtue contrasts.
 - 4.2.0: widened form 3 to denials of a misreading the reader never had ("X isn't a typo, and that's the headline"), with a deletion test in the replacement rule.
 - 4.1.0: added form 20 (asserted intent); widened form 1 to sentence openers in running prose.
 - 4.0.0: dictionary frontmatter carries the skill's `name` and `description`, so a swapped dictionary produces a differently named skill with its own trigger conditions. `engine.md` reduced to application rules. Added `forms/example.md` and frontmatter validation.

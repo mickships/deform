@@ -2,7 +2,7 @@
 name: deform
 description: Use when writing or editing any English prose. Applies a dictionary of banned AI writing forms, each with a replacement rule, and bans the form rather than the string. Also use when asked to "deform" a text or strip AI patterns from it.
 metadata:
-  version: 4.2.0
+  version: 4.3.0
 ---
 
 # Deform
@@ -22,10 +22,11 @@ A dictionary of banned writing forms with replacement rules. Apply while writing
 
 ## Banned forms
 
-### 1. Counted framing header
-Form: "[Number] [nouns] that [verb phrase]" as a header, a lead-in, or a sentence opener in running prose, followed by exactly that many items.
-Examples: "Three factors that shape the outcome" / "Five reasons this approach works" / "Here are four things to keep in mind" / "Two things I'd check before shipping:" / "Two things to note. First... Second..."
-Instead: make the strongest point in prose. If a list is warranted, head it with the subject, never the count.
+### 1. Counted opener
+Form: a header, lead-in, sentence, or fragment that opens with a count of what follows, whether a list follows or not. Includes "one" and "the one" used as a uniqueness claim.
+Examples: "Three factors that shape the outcome" / "Here are four things to keep in mind" / "Two things to note. First... Second..." / "Two things to say out loud before anyone treats the row as a to-do." / "Two candidates, pick one and say which:" / "The one measured proxy we have."
+Instead: make the strongest point in prose. If a list is warranted, head it with the subject, never the count. If the point is that something is the only one, make that a claim with its reason ("Churn is the only proxy we measure, because X").
+Boundary: distinct from 18, which delays the subject behind a colon. The count opener is banned even when the subject follows at once.
 
 ### 2. Format meta-label
 Form: announcing the container instead of the content, in running prose.
@@ -74,8 +75,8 @@ Instead: plain bullets or prose. If the label adds nothing, cut it; if it adds s
 
 ### 11. Process signaling
 Form: telling the reader how to regard your work instead of doing the work. Appears as a virtue contrast (naming the lazier alternative you avoided), a labeled preamble (a noun-phrase label classifying a statement before making it, usually in place of a direct question), or the two fused into one construction.
-Examples: "I verified it rather than assuming" / "before I state them" / "One important finding up front:" / "one editorial decision worth stating up front" / "A caveat:" / "Worth noting for the project rather than as an apology:"
-Instead: delete the signal and make the statement. If you want a response, ask for it. Keep a virtue contrast only when it changes what the reader should trust, such as flagging that a figure came from a live source rather than training data. Where the shapes are fused, cut the whole construction; removing one half leaves the form intact.
+Examples: "I verified it rather than assuming" / "I checked pricing today rather than quoting stale numbers" / "before I state them" / "One important finding up front:" / "one editorial decision worth stating up front" / "A caveat:" / "Worth noting for the project rather than as an apology:"
+Instead: delete the signal and make the statement. If you want a response, ask for it. Where provenance matters, state it as a fact ("I checked pricing today") and stop; the positive half already carries the value, and naming the alternative you avoided adds nothing. Where the shapes are fused, cut the whole construction; removing one half leaves the form intact.
 Boundary: distinct from 5, which claims a statement is important. This one makes claims about the writer.
 
 ### 12. Redundant qualifier
